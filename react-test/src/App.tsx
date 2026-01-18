@@ -490,11 +490,10 @@ const Chart = () => {
   }
   const myChartEle = useRef(null)
   useEffect(() => {
-    if (!myChartEle.current) { return }
     const myChart = echarts.init(myChartEle.current)
     myChart.setOption(getOption(isLight))
     const unwatch = subscribeKey(state, 'isLight', () => {
-      setOption(myChart, snap.isLight)
+      setOption(myChart, state.isLight)
     })
     setOption(myChart, snap.isLight)
     return () => unwatch()
