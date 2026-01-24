@@ -299,7 +299,7 @@ const Table1 = () => {
         <Column className={cx(flexStyle.columnHeight, fontFamilyStyle.fontFamily)} align="center" title={() => (
           <div style={{ userSelect: 'none', fontWeight: 100 }} onDoubleClick={() => { state.isShowChart = !isShowChart }}>{'rate' + (isShowChart ? '\'' : '')}</div>
         )} key="rate" dataIndex="rate" render={(_, item) => (<>
-          <Tooltip mouseEnterDelay={0} placement="left" title={<div className={fontFamilyStyle.fontFamily}>
+          <Tooltip mouseEnterDelay={0} trigger="click" placement="left" title={<div className={fontFamilyStyle.fontFamily}>
             <div style={{ display: 'grid', gridTemplateColumns: 'auto auto auto', justifyItems: 'center' }}>
               <div>rate2</div>
               <div style={{ whiteSpace: 'pre' }}> : </div>
@@ -329,7 +329,7 @@ const Table2 = () => {
           <div style={{ fontWeight: 100 }}>{`time(${getData?.analyseTime?.slice(24, 27) ?? ''})`}</div></>)} key="time" dataIndex="time" />
         <Column className={cx(flexStyle.columnHeight, fontFamilyStyle.fontFamily)} align="center" title={() => (<>
           <div style={{ fontWeight: 100 }}>price</div></>)} key="price" dataIndex="price" render={(_, item) => (<>
-            <Tooltip mouseEnterDelay={0} placement="left" title={<div className={fontFamilyStyle.fontFamily}>
+            <Tooltip mouseEnterDelay={0} trigger="click" placement="left" title={<div className={fontFamilyStyle.fontFamily}>
               <div style={{ display: 'grid', gridTemplateColumns: 'auto auto auto', justifyItems: 'center' }}>
                 {item.avg ? <>
                   <div>avgPrice</div>
