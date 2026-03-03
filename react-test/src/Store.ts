@@ -57,7 +57,7 @@ export type GetData = {
   }>,
   orderFormYear: Map<string, { perYearS: number, avgMonth: number, }>,
   lastNMonth: Map<string, { lastNMonthS: number, avgMonth: number, }>,
-  minNMonth: Array<{ nMonth: number, timeN: string, valueN: number }>,
+  minNMonth: Array<{ index: number; nMonth: number, timeN: string, valueN: number }>,
   errorLogArray: Array<string>,
   dateValue: Array<{ date: string; value: number }>,
 }
@@ -292,8 +292,8 @@ const setTable5 = () => {
   }
   const table5 = []
   for (let item of minNMonth) {
-    const { nMonth, timeN, valueN } = item
-    table5.push({ key: `${nMonth}`, nMonth, timeN, valueN })
+    const { index, nMonth, timeN, valueN } = item
+    table5.push({ key: `${nMonth}${index}`, nMonth, timeN: (index + 1) + ' - ' + timeN, valueN })
   }
   state.tableData5 = table5
 }
