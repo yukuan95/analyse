@@ -1,6 +1,6 @@
 {
   "startTime": "2026-02-17 04:28:00.000 +08",
-  "analyseTime": "2026-03-03 21:00:18.260 +08",
+  "analyseTime": "2026-03-03 21:37:22.584 +08",
   "lever": 6,
   "orderFormMonth": {
     "2017-08": {
@@ -79992,54 +79992,184 @@
   },
   "minNMonth": [
     {
+      "index": 0,
       "nMonth": 6,
       "timeN": "2023-04--2023-09",
       "valueN": 0.29
     },
     {
+      "index": 1,
+      "nMonth": 6,
+      "timeN": "2023-02--2023-07",
+      "valueN": 0.41
+    },
+    {
+      "index": 2,
+      "nMonth": 6,
+      "timeN": "2025-08--2026-01",
+      "valueN": 0.47
+    },
+    {
+      "index": 0,
       "nMonth": 12,
       "timeN": "2023-02--2024-01",
       "valueN": 0.44
     },
     {
+      "index": 1,
+      "nMonth": 12,
+      "timeN": "2025-04--2026-03",
+      "valueN": 0.77
+    },
+    {
+      "index": 2,
+      "nMonth": 12,
+      "timeN": "2023-03--2024-02",
+      "valueN": 1.32
+    },
+    {
+      "index": 0,
       "nMonth": 18,
       "timeN": "2022-08--2024-01",
       "valueN": 1.62
     },
     {
+      "index": 1,
+      "nMonth": 18,
+      "timeN": "2022-07--2023-12",
+      "valueN": 4.15
+    },
+    {
+      "index": 2,
+      "nMonth": 18,
+      "timeN": "2023-01--2024-06",
+      "valueN": 4.22
+    },
+    {
+      "index": 0,
       "nMonth": 24,
       "timeN": "2022-02--2024-01",
       "valueN": 9.55
     },
     {
+      "index": 1,
+      "nMonth": 24,
+      "timeN": "2022-07--2024-06",
+      "valueN": 11.27
+    },
+    {
+      "index": 2,
+      "nMonth": 24,
+      "timeN": "2021-10--2023-09",
+      "valueN": 11.84
+    },
+    {
+      "index": 0,
       "nMonth": 30,
       "timeN": "2021-08--2024-01",
       "valueN": 39.72
     },
     {
+      "index": 1,
+      "nMonth": 30,
+      "timeN": "2021-06--2023-11",
+      "valueN": 43.19
+    },
+    {
+      "index": 2,
+      "nMonth": 30,
+      "timeN": "2021-07--2023-12",
+      "valueN": 53.63
+    },
+    {
+      "index": 0,
       "nMonth": 36,
       "timeN": "2023-04--2026-03",
       "valueN": 55.67
     },
     {
+      "index": 1,
+      "nMonth": 36,
+      "timeN": "2023-02--2026-01",
+      "valueN": 122.11
+    },
+    {
+      "index": 2,
+      "nMonth": 36,
+      "timeN": "2021-07--2024-06",
+      "valueN": 145.62
+    },
+    {
+      "index": 0,
       "nMonth": 42,
       "timeN": "2022-10--2026-03",
       "valueN": 337.32
     },
     {
+      "index": 1,
+      "nMonth": 42,
+      "timeN": "2022-08--2026-01",
+      "valueN": 442.49
+    },
+    {
+      "index": 2,
+      "nMonth": 42,
+      "timeN": "2022-09--2026-02",
+      "valueN": 676.28
+    },
+    {
+      "index": 0,
       "nMonth": 48,
       "timeN": "2022-04--2026-03",
       "valueN": 826.55
     },
     {
+      "index": 1,
+      "nMonth": 48,
+      "timeN": "2022-03--2026-02",
+      "valueN": 1832.62
+    },
+    {
+      "index": 2,
+      "nMonth": 48,
+      "timeN": "2022-02--2026-01",
+      "valueN": 2599.16
+    },
+    {
+      "index": 0,
       "nMonth": 54,
       "timeN": "2021-10--2026-03",
       "valueN": 2204.9
     },
     {
+      "index": 1,
+      "nMonth": 54,
+      "timeN": "2021-07--2025-12",
+      "valueN": 8881.7
+    },
+    {
+      "index": 2,
+      "nMonth": 54,
+      "timeN": "2021-08--2026-01",
+      "valueN": 10800.94
+    },
+    {
+      "index": 0,
       "nMonth": 60,
       "timeN": "2021-04--2026-03",
       "valueN": 31236.38
+    },
+    {
+      "index": 1,
+      "nMonth": 60,
+      "timeN": "2021-02--2026-01",
+      "valueN": 50037.86
+    },
+    {
+      "index": 2,
+      "nMonth": 60,
+      "timeN": "2021-03--2026-02",
+      "valueN": 69256.59
     }
   ]
 }
