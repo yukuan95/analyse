@@ -228,7 +228,7 @@ const setTable2 = () => {
   for (let i = 0; i < data.length; i++) {
     const item = data[i]
     const lastItem = i === 0 ? lastMonthLast : data[i - 1]
-    const time = item.time.slice(0, 16)
+    const time = milliTimeToStringTime(stringTimeToMilliTime(item.time)).slice(0, 16)
     const price = toFixedString(item.nowPrice, 1)
     const avg = toFixedString(item.longPrice, 1)
     const avgChg = (item.longChg ?? 0) !== 0 ? toFixedString(item.longChg! * 100, 2) + "%" : ''
@@ -434,7 +434,8 @@ export function getNowMilliTime(): number {
   return new Date().getTime()
 }
 
-export function getNowStringTime(timezone: number = 8): string {
+export function getNowStringTime(timezone?: number): string {
+  timezone = timezone ?? getTimezone()
   return milliTimeToStringTime(new Date().getTime(), timezone)
 }
 
@@ -451,12 +452,19 @@ export function timezoneToString(timezone: number): string {
   return temp.length === 2 ? temp[0] + '0' + temp[1] : temp
 }
 
-export function milliTimeToStringTime(milliTime: number, timezone: number = 8): string {
-  if (timezone > 12 || timezone < -12) {
-    throw new Error('milliTimeToStringTime timezone error')
-  }
+export function milliTimeToStringTime(milliTime: number, timezone?: number): string {
+  timezone = timezone ?? getTimezone()
+  console.assert(!isNaN(Number(timezone)))
+  console.assert(timezone <= 12 && timezone >= -12)
+  timezone = Number.parseInt(String(timezone))
   const temp = new Date(milliTime + timesToMilli({ hours: timezone })).toISOString()
-  return `${temp.slice(0, 10)} ${temp.slice(11, 23)} ${timezoneToString(timezone)}`
+  const stringTime = `${temp.slice(0, 10)} ${temp.slice(11, 23)} ${timezoneToString(timezone)}`
+  console.assert(stringTime.length === 27)
+  return stringTime
+}
+
+export function getTimezone() {
+  return new Date().getTimezoneOffset() / (-60)
 }
 
 export function timesToMilli(times: { days?: number, hours?: number, minutes?: number, seconds?: number }): number {
