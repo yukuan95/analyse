@@ -1,6 +1,6 @@
 {
   "startTime": "2026-03-10 22:56:00.000 +08",
-  "analyseTime": "2026-03-14 22:00:20.207 +08",
+  "analyseTime": "2026-03-14 23:00:19.808 +08",
   "lever": 6,
   "orderFormMonth": {
     "2017-08": {
@@ -80194,9 +80194,59 @@
           "status2": "SHORT",
           "preStatus2": "LONG",
           "preS2": 0.9919281360200439
+        },
+        {
+          "time": "2026-03-14 22:31:00.000 +08",
+          "nowPrice": 70798.2,
+          "shortPrice": 70771.36000000456,
+          "longPrice": 70770.68354166958,
+          "isStart": true,
+          "startTime": "2026-03-10 22:56:00.000 +08",
+          "reason": "GoldenCross",
+          "status": "LONG",
+          "type": "Normal",
+          "preNowPrice": 70500.4,
+          "preStatus": "SHORT",
+          "preS": 0.9688075301700414,
+          "maxPrice": 70771.36000000456,
+          "maxPriceTime": "2026-03-14 22:31:00.000 +08",
+          "minPrice": 70534.9258333379,
+          "minPriceTime": "2026-03-14 19:32:00.000 +08",
+          "maxMinChg": 0.003349211226105742,
+          "preLongPrice": 70676.78254629919,
+          "preLongPriceTime": "2026-03-14 15:55:00.000 +08",
+          "longChg": 0.0013285974826157446,
+          "status2": "LONG",
+          "preStatus2": "SHORT",
+          "preS2": 0.9688075301700414
+        },
+        {
+          "time": "2026-03-14 22:58:00.000 +08",
+          "nowPrice": 70594.6,
+          "shortPrice": 70770.45916667131,
+          "longPrice": 70770.50909722516,
+          "isStart": true,
+          "startTime": "2026-03-10 22:56:00.000 +08",
+          "reason": "DeathCross",
+          "status": "SHORT",
+          "type": "Normal",
+          "preNowPrice": 70798.2,
+          "preStatus": "LONG",
+          "preS": 0.9768488520894607,
+          "maxPrice": 70779.28166667126,
+          "maxPriceTime": "2026-03-14 22:44:00.000 +08",
+          "minPrice": 70770.45916667131,
+          "minPriceTime": "2026-03-14 22:58:00.000 +08",
+          "maxMinChg": 0.00012465194243577553,
+          "preLongPrice": 70770.68354166958,
+          "preLongPriceTime": "2026-03-14 22:31:00.000 +08",
+          "longChg": 0.0000024649252443158624,
+          "status2": "SHORT",
+          "preStatus2": "LONG",
+          "preS2": 0.9768488520894607
         }
       ],
-      "perMonthS": 0.33929343223691705
+      "perMonthS": 0.3211000175158081
     }
   },
   "orderFormYear": {
@@ -80237,82 +80287,82 @@
       "avgMonth": 1.1094378687765913
     },
     "2026": {
-      "perYearS": 0.448680745265062,
-      "avgMonth": 0.9353944441376253
+      "perYearS": 0.4246218213355132,
+      "avgMonth": 0.9311082879680068
     }
   },
   "lastNMonth": {
     "6": {
-      "lastNMonthS": 0.412298032873547,
-      "avgMonth": 0.8627173730855121
+      "lastNMonthS": 0.390190003692693,
+      "avgMonth": 0.8548292152384801
     },
     "12": {
-      "lastNMonthS": 0.5817983269121306,
-      "avgMonth": 0.9558675221217982
+      "lastNMonthS": 0.550601441738802,
+      "avgMonth": 0.9514875543948598
     },
     "18": {
-      "lastNMonthS": 5.699734852200901,
-      "avgMonth": 1.1015188288296265
+      "lastNMonthS": 5.394106655148032,
+      "avgMonth": 1.0981513405631647
     },
     "24": {
-      "lastNMonthS": 30.502798299644667,
-      "avgMonth": 1.1530482654003242
+      "lastNMonthS": 28.867193224824756,
+      "avgMonth": 1.1504034884086098
     },
     "30": {
-      "lastNMonthS": 139.97544858778232,
-      "avgMonth": 1.179057709270721
+      "lastNMonthS": 132.46975839466202,
+      "avgMonth": 1.1768936641288548
     },
     "36": {
-      "lastNMonthS": 41.885423346512376,
-      "avgMonth": 1.1093211751201169
+      "lastNMonthS": 39.63946511299077,
+      "avgMonth": 1.1076242066294522
     },
     "42": {
-      "lastNMonthS": 253.75794604050387,
-      "avgMonth": 1.1409013313295695
+      "lastNMonthS": 240.15107036167285,
+      "avgMonth": 1.1394052153837826
     },
     "48": {
-      "lastNMonthS": 621.7961243051552,
-      "avgMonth": 1.1434074042986002
+      "lastNMonthS": 588.4544981885539,
+      "avgMonth": 1.1420953197278683
     },
     "54": {
-      "lastNMonthS": 1658.693969896998,
-      "avgMonth": 1.1471634495145941
+      "lastNMonthS": 1569.7523505712625,
+      "avgMonth": 1.1459932462516904
     },
     "60": {
-      "lastNMonthS": 23498.308172879224,
-      "avgMonth": 1.1826346790831155
+      "lastNMonthS": 22238.294199089454,
+      "avgMonth": 1.1815488754725982
     },
     "66": {
-      "lastNMonthS": 170470.4866070413,
-      "avgMonth": 1.2002381093155443
+      "lastNMonthS": 161329.60745679162,
+      "avgMonth": 1.1992362804783259
     },
     "72": {
-      "lastNMonthS": 609019.4830356407,
-      "avgMonth": 1.2032118481468936
+      "lastNMonthS": 576362.9592855268,
+      "avgMonth": 1.2022911977094586
     },
     "78": {
-      "lastNMonthS": 3587855.8209796143,
-      "avgMonth": 1.2134904027354048
+      "lastNMonthS": 3395469.6952586602,
+      "avgMonth": 1.212633286566208
     },
     "84": {
-      "lastNMonthS": 28645240.743655376,
-      "avgMonth": 1.226801883964726
+      "lastNMonthS": 27109240.64722141,
+      "avgMonth": 1.225997239457483
     },
     "90": {
-      "lastNMonthS": 18687538.796468876,
-      "avgMonth": 1.2044673264886234
+      "lastNMonthS": 17685485.3785779,
+      "avgMonth": 1.20372998119279
     },
     "96": {
-      "lastNMonthS": 92311918.24167527,
-      "avgMonth": 1.2105185115383879
+      "lastNMonthS": 87362016.90937026,
+      "avgMonth": 1.2098237641674658
     },
     "102": {
-      "lastNMonthS": 240368910.75516623,
-      "avgMonth": 1.2082741201266947
+      "lastNMonthS": 227479974.9140025,
+      "avgMonth": 1.207621441570774
     },
     "104": {
-      "lastNMonthS": 369428847.5747997,
-      "avgMonth": 1.2088714025562846
+      "lastNMonthS": 349619527.39563245,
+      "avgMonth": 1.208230955751958
     }
   },
   "minNMonth": [
@@ -80326,7 +80376,7 @@
       "index": 1,
       "nMonth": 6,
       "timeN": "2025-10--2026-03",
-      "valueN": 0.41
+      "valueN": 0.39
     },
     {
       "index": 2,
@@ -80344,7 +80394,7 @@
       "index": 1,
       "nMonth": 12,
       "timeN": "2025-04--2026-03",
-      "valueN": 0.58
+      "valueN": 0.55
     },
     {
       "index": 2,
@@ -80410,7 +80460,7 @@
       "index": 0,
       "nMonth": 36,
       "timeN": "2023-04--2026-03",
-      "valueN": 41.88
+      "valueN": 39.63
     },
     {
       "index": 1,
@@ -80428,7 +80478,7 @@
       "index": 0,
       "nMonth": 42,
       "timeN": "2022-10--2026-03",
-      "valueN": 253.75
+      "valueN": 240.15
     },
     {
       "index": 1,
@@ -80446,7 +80496,7 @@
       "index": 0,
       "nMonth": 48,
       "timeN": "2022-04--2026-03",
-      "valueN": 621.79
+      "valueN": 588.45
     },
     {
       "index": 1,
@@ -80464,7 +80514,7 @@
       "index": 0,
       "nMonth": 54,
       "timeN": "2021-10--2026-03",
-      "valueN": 1658.69
+      "valueN": 1569.75
     },
     {
       "index": 1,
@@ -80482,7 +80532,7 @@
       "index": 0,
       "nMonth": 60,
       "timeN": "2021-04--2026-03",
-      "valueN": 23498.3
+      "valueN": 22238.29
     },
     {
       "index": 1,
