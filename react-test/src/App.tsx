@@ -328,7 +328,7 @@ const Table2 = () => {
     <div className={flexStyle.container}>
       <Table<DataType2> dataSource={tableData2} size="small" pagination={false} bordered>
         <Column className={cx(flexStyle.columnHeight, fontFamilyStyle.fontFamily)} align="center" title={() => (<>
-          <div style={{ fontWeight: 100 }}>{(getData?.analyseTime) ? '' : `time(${milliTimeToStringTime(stringTimeToMilliTime(getData!.analyseTime)).slice(24, 27) ?? ''})`}</div></>)} key="time" dataIndex="time" />
+          <div style={{ fontWeight: 100 }}>{(getData?.analyseTime) ? `time(${milliTimeToStringTime(stringTimeToMilliTime(getData!.analyseTime)).slice(24, 27) ?? ''})` : ''}</div></>)} key="time" dataIndex="time" />
         <Column className={cx(flexStyle.columnHeight, fontFamilyStyle.fontFamily)} align="center" title={() => (<>
           <div style={{ fontWeight: 100 }}>price</div></>)} key="price" dataIndex="price" render={(_, item) => (<>
             <Tooltip mouseEnterDelay={0} trigger={trigger} placement="left" title={<div className={fontFamilyStyle.fontFamily}>
