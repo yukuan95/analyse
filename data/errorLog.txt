@@ -1,0 +1,6 @@
+time: 2026-03-23 16:00:29.292 +08, from: Crontab.ts
+error: short read while indexing data/priceLog.json
+error: data/priceLog.json: failed to insert into database
+error: unable to index file 'data/priceLog.json'
+fatal: updating files failed
+=====
