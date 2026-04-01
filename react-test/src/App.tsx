@@ -420,7 +420,12 @@ const Table5 = () => {
     <Table<DataType5> dataSource={tableData5} size="small" pagination={false} bordered>
       <Column className={cx(flexStyle.columnHeight, fontFamilyStyle.fontFamily)} align="center" title={() => (<>
         <div style={{ fontWeight: 100 }}>timeN</div></>)} key="nMonth" render={(_, item) => (
-          <><div>{item.nMonth + ' : ' + item.timeN}</div></>
+          <div>
+            {item.timeN.slice(0, 1) === '1'
+              ? <span style={{ color: '#4EC1FF' }}>● </span>
+              : <span style={{ color: 'transparent' }}>● </span>}
+            <span>{item.nMonth + ' : ' + item.timeN}</span>
+          </div>
         )} />
       <Column className={cx(flexStyle.columnHeight, fontFamilyStyle.fontFamily)} align="center" title={() => (<>
         <div style={{ fontWeight: 100 }}>valueN</div></>)} key="nMonth" render={(_, item) => (
